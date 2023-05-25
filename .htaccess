@@ -1,0 +1,6 @@
+<FilesMatch "prueba.html">
+AuthType Basic
+AuthName "Acceso Restringido"
+AuthUserFile /home/u706526344/domains/academia-adaggio.com/public_html/.htpasswd
+require valid-user
+</FilesMatch>

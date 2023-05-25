@@ -1,0 +1,12 @@
+Para generar una clave de API gratuita de Google Maps, sigue los siguientes pasos:
+
+Ve a la consola de Google Cloud en https://console.cloud.google.com/.
+Si es tu primera vez utilizando Google Cloud, deberás crear una cuenta y aceptar los términos y condiciones. Si ya tienes una cuenta, inicia sesión.
+En la página principal de la consola, haz clic en el botón "Crear proyecto" o selecciona un proyecto existente en el que quieras trabajar.
+En la parte superior de la página, haz clic en el botón "habilitar las API y servicios".
+En la sección "Búsqueda de APIs y servicios", busca "Google Maps JavaScript API" y haz clic en él.
+Haz clic en el botón "Habilitar".
+En el menú de navegación del lado izquierdo, haz clic en "Credenciales".
+Haz clic en el botón "Crear credenciales" y selecciona "Clave de API".
+Copia tu nueva clave de API y úsala en tu aplicación.
+Recuerda que la clave de API es única para cada proyecto y se utiliza para identificar tu aplicación cuando se comunica con los servicios de Google Maps. Asegúrate de proteger tu clave de API y no compartirla públicamente. Google también limita la cantidad de solicitudes que puedes hacer con una clave de API gratuita, así que asegúrate de revisar los límites y condiciones de uso de la API de Google Maps antes de integrarla en tu aplicación.

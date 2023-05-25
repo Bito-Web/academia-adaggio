@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="academia, adaggio, musica">
+    <meta name="description" content="Por el momento no hay descripción disponible, estamos trabajando en ello...">
+    <meta name="author" content="Desarrollado por Jorge Torrelles">
+    <!-- <meta name="cache-control" content="no-cache"> -->
+    
+    <title>Adaggio | Test</title>
+
+    <link rel="canonical" href="https://academia-adaggio.com/">
+    <link rel="shortcut icon" href="./fav-icon.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick/slick-theme.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Preloader -->
+    <style>
+        html body.hidde > * {
+            display: none;
+            visibility: hidden;
+            opacity: 0;
+        }
+        .loader {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+        }
+        .loader.show {
+            display: flex;
+            visibility: visible;
+            opacity: 1;
+            z-index: 1000000;
+        }
+    </style>
+</head>
+<body class="hidde">
+    <div id="loader" class="loader show">
+        <img src="./ajax-loader.gif" alt="Loader" loading="lazy">
+        <h4 class="loader__text"></h4>
+    </div>
+    <header id="header" class="header"></header>
+    <main>
+        <section id="banners" class="banners"></section>
+        <section id="about-us" class="about-us"></section>
+        <section id="gallery" class="gallery"></section>
+        <section id="chairs" class="chairs"></section>
+        <section id="experiences" class="experiences"></section>
+        <section id="faqs" class="faqs"></section>
+        <section id="ubication" class="ubication"></section>
+        <section id="contact" class="contact"></section>
+
+        <div id="modal" class="modal"></div>
+    </main>
+    <footer id="footer" class="footer"></footer>
+
+    <!-- Preloader -->
+    <script>
+        const loader = document.querySelector(".loader")
+        const loader__text = document.querySelector(".loader__text")
+        const body = document.body
+
+        function showText() {
+            let text = "Loading..."
+            let count = 1
+            let split = ""
+
+            setInterval(() => {
+                if(count <= text.length) {
+
+                    split = text.substr(0,count)
+                    loader__text.textContent = split
+                    count++
+                    return split
+                }else {
+                    split = ""
+                    count = 1
+                    return
+                }
+
+            }, 100)
+        }
+
+        showText()
+
+        window.addEventListener("DOMContentLoaded", (e) => {
+            loader.classList.remove("show")
+            body.classList.remove("hidde")
+        })
+        
+
+    </script>
+    <!-- Jquery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Slick -->
+    <script type="text/javascript" src="./js/slick/slick.js"></script>
+    <!-- Google Maps -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG7rwqVashsBjnfAVvw20OA1JbP7-45h0&callback=initMap,onApiLoad&libraries=geometry,search&language=es&region=uy"></script> -->
+    <!-- JS -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
