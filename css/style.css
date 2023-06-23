@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 @font-face {
     font-family: "Taviraj";
@@ -40,6 +47,10 @@ body {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    background-image: url(../assets/images/background/background_body.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 :host,
 :root {
@@ -109,7 +120,8 @@ header,
 footer {
     margin: 0 auto;
     max-width: 1366px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* Header */
@@ -340,6 +352,7 @@ footer {
 }
 .about-us__container__right {
     padding: 3rem;
+    background-color: white;
 }
 .about-us__container__right h3 {
     /* margin: 0;
@@ -452,7 +465,10 @@ footer {
     -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 1);
             box-shadow: 0 0 0.25rem rgba(0, 0, 0, 1);
     overflow: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    background-color: white;
 }
 .chairs__container__chair:hover {
     height: auto;
@@ -630,12 +646,20 @@ footer {
     padding:  3rem 2rem;
     width: 450px;
     border-left: 4px solid var(--bordeaux);
-    box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
+            box-shadow: 0 0 0.5rem rgba(0,0,0,0.5);
     background-color: var(--champaigne);
     border-radius: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .experiences__container__item div .fa-solid.fa-user {
     display: block; 
@@ -652,14 +676,18 @@ footer {
 .experiences__container__item div p:nth-of-type(1) {
     padding: 1rem;
     text-align: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: medium;
     font-weight: 700;
 }
 .experiences__container__item div p:nth-of-type(2) {
     padding: 1rem;
     text-align: right;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     font-size: small;
     font-style: italic;
 }
@@ -724,6 +752,7 @@ footer {
 .faqs__container__questions p {
     padding: 1rem 2rem;
     display: none;
+    background-color: white;
 }
 .faqs__container__questions.open h4 {
     cursor: pointer;
@@ -815,7 +844,7 @@ footer {
 /* Contact */
 #contact {
     width: 100%;
-    background-color: white;
+    /* background-color: white; */
 }
 .contact {
     padding: 2rem;
