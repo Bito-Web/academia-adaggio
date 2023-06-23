@@ -471,7 +471,7 @@ footer {
     background-color: white;
 }
 .chairs__container__chair:hover {
-    height: auto;
+    height: calc(100% - 2rem);
 }
 .chairs__container__chair__title::after {
     content: "+";
