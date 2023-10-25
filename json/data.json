@@ -41,15 +41,27 @@
             "title": "Banners",
             "images": [
                 {
-                    "src": "./assets/images/banners/banner_1.jpg",
+                    "src": "./assets/images/banners/banner_1.png",
                     "alt": "Banner"
                 },
                 {
-                    "src": "./assets/images/banners/banner_2.jpg",
+                    "src": "./assets/images/banners/banner_2.png",
                     "alt": "Banner"
                 },
                 {
-                    "src": "./assets/images/banners/banner_3.jpg",
+                    "src": "./assets/images/banners/banner_3.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_4.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_5.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_6.png",
                     "alt": "Banner"
                 }
             ]
@@ -96,6 +108,42 @@
                         {
                             "src": "./assets/images/gallery/1/gallery_3.jpeg",
                             "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_4.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_5.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_6.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_7.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_8.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_9.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_10.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_11.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_12.jpeg",
+                            "alt": "Evento xxx-xxx"
                         }
                     ]
                 },
@@ -113,6 +161,14 @@
                         },
                         {
                             "src": "./assets/images/gallery/2/gallery_3.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_4.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_5.jpeg",
                             "alt": "Evento xxx-xxx"
                         }
                     ]
@@ -132,29 +188,75 @@
                         {
                             "src": "./assets/images/gallery/3/gallery_3.jpeg",
                             "alt": "Evento xxx-xxx"
-                        }
-                    ]
-                },
-                {
-                    "title": "Evento 4",
-                    "cover": "./assets/images/gallery/4/gallery_1.jpeg",
-                    "images": [
+                        },
                         {
-                            "src": "./assets/images/gallery/4/gallery_1.jpeg",
+                            "src": "./assets/images/gallery/3/gallery_4.jpeg",
                             "alt": "Evento xxx-xxx"
                         },
                         {
-                            "src": "./assets/images/gallery/4/gallery_2.jpeg",
+                            "src": "./assets/images/gallery/3/gallery_5.jpeg",
                             "alt": "Evento xxx-xxx"
                         },
                         {
-                            "src": "./assets/images/gallery/4/gallery_3.jpeg",
+                            "src": "./assets/images/gallery/3/gallery_6.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_7.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_8.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_9.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_10.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_11.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_12.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_13.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_14.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_15.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_16.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_17.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_18.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_19.jpeg",
                             "alt": "Evento xxx-xxx"
                         }
                     ]
                 }
             ],
-            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2022 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
         },
         "chairs": {
             "title": "Cátedras Musicales",
@@ -553,7 +655,7 @@
                     ]
                 }
             ],
-            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2022 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
         }
     },
     "footer": {
