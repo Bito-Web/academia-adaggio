@@ -21,7 +21,7 @@ function buildBodySections(data) {
     buildExperiences(data.experiences)
     buildFaqs(data.faqs)
     buildUbication(data.ubication)
-    buildContact(data.contact)
+    // buildContact(data.contact)
     privacy_policy(data.privacy_policy)
 }
 

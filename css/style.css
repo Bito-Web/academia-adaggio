@@ -1,71 +1,43 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 @font-face {
     font-family: "Taviraj";
-    src: local("Taviraj"),
-    url("../fonts/Taviraj-Black.ttf") format("truetype"),
-    url("../fonts/Taviraj-BlackItalic.ttf") format("truetype"),
+    src: url("../fonts/Taviraj-Black.ttf") format("truetype"),
     url("../fonts/Taviraj-Bold.ttf") format("truetype"),
-    url("../fonts/Taviraj-BoldItalic.ttf") format("truetype"),
     url("../fonts/Taviraj-ExtraBold.ttf") format("truetype"),
-    url("../fonts/Taviraj-ExtraBoldItalic.ttf") format("truetype"),
     url("../fonts/Taviraj-ExtraLight.ttf") format("truetype"),
-    url("../fonts/Taviraj-ExtraLightItalic.ttf") format("truetype"),
-    url("../fonts/Taviraj-Italic.ttf") format("truetype"),
     url("../fonts/Taviraj-Light.ttf") format("truetype"),
-    url("../fonts/Taviraj-LightItalic.ttf") format("truetype"),
     url("../fonts/Taviraj-Medium.ttf") format("truetype"),
-    url("../fonts/Taviraj-MediumItalic.ttf") format("truetype"),
     url("../fonts/Taviraj-Regular.ttf") format("truetype"),
     url("../fonts/Taviraj-SemiBold.ttf") format("truetype"),
+    url("../fonts/Taviraj-Thin.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Taviraj";
+    src: url("../fonts/Taviraj-BlackItalic.ttf") format("truetype"),
+    url("../fonts/Taviraj-BoldItalic.ttf") format("truetype"),
+    url("../fonts/Taviraj-ExtraBoldItalic.ttf") format("truetype"),
+    url("../fonts/Taviraj-ExtraLightItalic.ttf") format("truetype"),
+    url("../fonts/Taviraj-Italic.ttf") format("truetype"),
+    url("../fonts/Taviraj-LightItalic.ttf") format("truetype"),
+    url("../fonts/Taviraj-MediumItalic.ttf") format("truetype"),
     url("../fonts/Taviraj-SemiBoldItalic.ttf") format("truetype"),
-    url("../fonts/Taviraj-Thin.ttf") format("truetype"),
     url("../fonts/Taviraj-ThinItalic.ttf") format("truetype");
+    font-style: italic;
 }
 * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
-body {
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    /* font-family: var(--font); */
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.2;
-    color: #323232;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    /* background-image: url(../assets/images/background/background_body.png);
-    background-position: top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto 100%; */
-}
 :host,
 :root {
-    /* --bordeaux: #ad0d27; */
     --bordeaux: rgba(173, 13, 39, 1);
-    /* --champaigne: #fff0cf; */
     --champaigne: rgba(255, 240, 207, 1);
     --champaigne-50: rgba(255, 240, 207, 0.5);
     --champaigne-75: rgba(255, 240, 207, 0.75);
-    /* --brown: #bc7c74; */
     --brown: rgba(188, 124, 116, 1);
     --brown-50: rgba(188, 124, 116, 0.5);
     --brown-25: rgba(188, 124, 116, 0.25);
-    /* --pink: #e3948d; */
     --pink: rgba(227, 148, 141, 1);
     --green-light: #a3d36c;
     --green-dark: #84c141;
@@ -106,11 +78,28 @@ body {
         --content-size: 1.25rem;
     }
 }
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #323232;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
 /* Standart */
 .title {
     margin: 0;
     padding: 0 0 2rem;
     text-align: center;
+    font-family: var(--font);
     font-size: var(--title-size);
     color: var(--bordeaux);
     font-weight: 700;
@@ -124,6 +113,8 @@ footer {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+p, span, a, button, div, article { font-weight: 300; }
 
 /* Header */
 #header {}
@@ -145,7 +136,7 @@ footer {
             align-items: center;
     height: 75px;
     background-color: var(--champaigne-75);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -355,12 +346,7 @@ footer {
     padding: 3rem;
     background-color: rgba(255,255,255,0.75);
 }
-.about-us__container__right h3 {
-    /* margin: 0;
-    padding: 0 0 1rem;
-    font-size: var(--title-size);
-    color: var(--bordeaux); */
-}
+.about-us__container__right h3 {}
 .about-us__container__right h4 {
     margin: 0;
     padding: 0;
@@ -397,19 +383,8 @@ footer {
 .gallery {
     padding: 2rem;
 }
-.gallery__title {
-    /* margin: 0;
-    padding: 0 0 2rem;
-    text-align: center;
-    font-size: var(--title-size);
-    color: var(--bordeaux);
-    font-weight: 700; */
-}
-.gallery__container {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem; */
-}
+.gallery__title {}
+.gallery__container {}
 .gallery__container__album {
     margin: 0 0.5rem;
     background-position: top center;
@@ -508,11 +483,8 @@ footer {
     margin: 0;
     padding: 0 0 0.5rem;
 }
-/* .chairs__container__chair__description b,
-.chairs__container__chair__description p {
-    margin: 0;
-    padding: 0;
-} */
+.chairs__container__chair__description b,
+.chairs__container__chair__description p {}
 .chairs__container__chair__description__items {
     margin: 0;
     padding: 0 0 0 1.5rem; 
@@ -812,6 +784,9 @@ footer {
 .ubication__container div p {
     margin: 0;
     padding: 0 0 0.5rem;
+    &:last-of-type {
+        padding: 0 0 1rem;
+    }
 }
 .ubication__container div span {
     margin: 0;
@@ -828,6 +803,10 @@ footer {
 .ubication__container iframe {
     width: 100%;
     height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem var(--brown);
 }
 @media (max-width: 991px) {
     .ubication__container {
@@ -945,7 +924,7 @@ footer {
     width: 60%;
     color: white;
     font-size: var(--content-size);
-    font-family: var(--font-family);
+    font-family: var(--font);
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -1091,7 +1070,7 @@ textarea.error:hover {
     width: 60%;
     color: black;
     font-size: var(--content-size);
-    font-family: var(--font-family);
+    font-family: var(--font);
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -1172,7 +1151,7 @@ textarea.error:hover {
     max-width: 390px;
     color: white;
     font-size: var(--content-size);
-    font-family: var(--font-family);
+    font-family: var(--font);
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;

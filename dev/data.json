@@ -1,0 +1,698 @@
+{
+    "header": {
+        "title": "",
+        "logo": {
+            "src": "./assets/images/logos/logo_bordo.png",
+            "alt": "Logo Adaggio",
+            "href": "",
+            "target": "_self",
+            "title": "adaggio"
+        },
+        "menu": [
+            {
+                "title": "Nosotros",
+                "href": "#about-us",
+                "target": "_self"
+            },
+            {
+                "title": "Galería",
+                "href": "#gallery",
+                "target": "_self"
+            },
+            {
+                "title": "Cátedras",
+                "href": "#chairs",
+                "target": "_self"
+            },
+            {
+                "title": "Ubicación",
+                "href": "#ubication",
+                "target": "_self"
+            },
+            {
+                "title": "Contacto",
+                "href": "#contact",
+                "target": "_self"
+            }
+        ]
+    },
+    "sections": {
+        "banners": {
+            "title": "Banners",
+            "images": [
+                {
+                    "src": "./assets/images/banners/banner_1.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_2.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_3.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_4.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_5.png",
+                    "alt": "Banner"
+                },
+                {
+                    "src": "./assets/images/banners/banner_6.png",
+                    "alt": "Banner"
+                }
+            ]
+        },
+        "about_us": {
+            "title": "About Us",
+            "image": {
+                "src": "./assets/images/about-us/about-us_1.png",
+                "alt": ""
+            },
+            "content": {
+                "title": "Nosotros",
+                "description": [
+                    {
+                        "subtitle": "",
+                        "text": "Somos una Academia de formación musical, que imparte un moderno método de fácil y rápida comprensión, tanto para principiantes como para iniciados en la ejecución musical."
+                    },
+                    {
+                        "subtitle": "",
+                        "text": "Creada el 1 de marzo de 2011 por iniciativa de los licenciados Vicnelly Torres y José Raúl Núñez."
+                    },
+                    {
+                        "subtitle": "",
+                        "text": "Nuestro objetivo principal es la formación de ciudadanos integrales a través de la música, con base en valores trascendentales como el respeto, humildad, solidaridad, disciplina y trabajo en equipo."
+                    }
+                ]
+            }
+        },
+        "gallery": {
+            "title": "Galería",
+            "albums": [
+                {
+                    "title": "Evento 1",
+                    "cover": "./assets/images/gallery/1/gallery_1.jpeg",
+                    "images": [
+                        {
+                            "src": "./assets/images/gallery/1/gallery_1.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_2.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_3.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_4.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_5.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_6.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_7.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_8.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_9.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_10.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_11.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_12.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        }
+                    ]
+                },
+                {
+                    "title": "Evento 2",
+                    "cover": "./assets/images/gallery/2/gallery_1.jpeg",
+                    "images": [
+                        {
+                            "src": "./assets/images/gallery/2/gallery_1.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_2.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_3.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_4.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/2/gallery_5.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        }
+                    ]
+                },
+                {
+                    "title": "Evento 3",
+                    "cover": "./assets/images/gallery/3/gallery_1.jpeg",
+                    "images": [
+                        {
+                            "src": "./assets/images/gallery/3/gallery_1.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_2.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_3.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_4.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_5.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_6.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_7.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_8.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_9.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_10.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_11.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_12.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_13.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_14.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_15.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_16.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_17.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/3/gallery_18.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        },
+                        {
+                            "src": "./assets/images/gallery/1/gallery_19.jpeg",
+                            "alt": "Evento xxx-xxx"
+                        }
+                    ]
+                }
+            ],
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+        },
+        "chairs": {
+            "title": "Cátedras Musicales",
+            "description": "Nos enfocamos en el aprendizaje de los aspectos esenciales para el desarrollo de habilidades y destrezas en la ejecución de cada instrumento.",
+            "teachers": [
+                {
+                    "id": 1,
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "name": "José Raúl Núñez",
+                    "man_or_woman": 1,
+                    "biography": "Nativo de Valencia- Edo Carabobo, es Lcdo en Educación mención \"Educación Musical\", Cuatrista, Bandolinista, Profesor de Armonía y Contrapunto, especialista en música venezolana, egresado de la Escuela de Folklore \"Benito Galarraga\"",
+                    "instruments": "Cuatro, Bandola, Guitarra, Teclado",
+                    "schedules": [
+                        {
+                            "place": "Club Madeirense",
+                            "course": "Cuatro",
+                            "day": "Miércoles y Jueves",
+                            "hours": "3pm&nbsp;a&nbsp;4pm"
+                        },
+                        {
+                            "place": "Club Madeirense",
+                            "course": "Guitarra",
+                            "day": "Miércoles y Jueves",
+                            "hours": "4pm&nbsp;a&nbsp;5pm"
+                        },
+                        {
+                            "place": "Club Madeirense",
+                            "course": "Teclado",
+                            "day": "Jueves",
+                            "hours": "5pm&nbsp;a&nbsp;6pm"
+                        }
+                    ], 
+                    "since": "2011",
+                    "end": "",
+                    "active": true
+                },
+                {
+                    "id": 2,
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "name": "Vicnelly Torres",
+                    "man_or_woman": 2,
+                    "biography": "Nativa de Valencia- Edo Carabobo, es Lcda en Educación mención \"Educación Musical\", Flautista, Cantante, Profesora de Práctica Coral y Técnica Vocal egresada del Conservatorio de Música de Carabobo.",
+                    "instruments": "Flauta, Canto",
+                    "schedules": [
+                        {
+                            "place": "Club Madeirense",
+                            "course": "Canto",
+                            "day": "Miércoles",
+                            "hours": "5pm&nbsp;a&nbsp;7pm"
+                        },
+                        {
+                            "place": "Club Madeirense",
+                            "course": "Canto",
+                            "day": "Jueves",
+                            "hours": "3pm&nbsp;a&nbsp;5pm&nbsp;/ 5pm&nbsp;a&nbsp;7pm"
+                        }
+                    ], 
+                    "since": "2011",
+                    "end": "",
+                    "active": true
+                }
+            ],
+            "courses": [
+                {
+                    "title": "Cuatro",
+                    "description": [
+                        {
+                            "text": "Estudio de escalas con sus variaciones"
+                        },
+                        {
+                            "text": "Arpegios con variaciones y posiciones"
+                        },
+                        {
+                            "text": "Centros tonales y rearmonización"
+                        },
+                        {
+                            "text": "Improvisación y desarrollo de temas"
+                        }
+                    ],
+                    "levels": "6",
+                    "teachers": [1]
+                },
+                {
+                    "title": "Guitarra",
+                    "description": [
+                        {
+                            "text": "Estudio de escalas con sus variaciones"
+                        },
+                        {
+                            "text": "Arpegios con variaciones y posiciones"
+                        },
+                        {
+                            "text": "Centros tonales y rearmonización"
+                        },
+                        {
+                            "text": "Improvisación y desarrollo de temas"
+                        }
+                    ],
+                    "levels": "6",
+                    "teachers": [1]
+
+                },
+                {
+                    "title": "Canto",
+                    "description": [
+                        {
+                            "text": "Técnicas de interpretación vocal"
+                        },
+                        {
+                            "text": "Impostación, respiración, entonación y dicción"
+                        },
+                        {
+                            "text": "Técnicas para el manejo del micrófono y escena"
+                        },
+                        {
+                            "text": "Expresión corporal y oratoria"
+                        }
+                    ],
+                    "levels": "6",
+                    "teachers": [2]
+                },
+                {
+                    "title": "Teclado",
+                    "description": [
+                        {
+                            "text": "Estudio de escalas con sus variaciones"
+                        },
+                        {
+                            "text": "Arpegios con variaciones y posiciones"
+                        },
+                        {
+                            "text": "Centros tonales y rearmonización"
+                        },
+                        {
+                            "text": "Improvisación y desarrollo de temas"
+                        }
+                    ],
+                    "levels": "6",
+                    "teachers": [1]
+                }
+            ],
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados"
+        },
+        "experiences": {
+            "title": "Experiencias",
+            "comments": [
+                {
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "comment": "En adaggio además de aprender música, aprendí a trabajar en equipo",
+                    "author": "Ysangela Ruiz"
+                },
+                {
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "comment": "Estoy muy satisfecho con la enseñanza recibida, actualmente resido en Argentina y doy clases de teclado",
+                    "author": "Carlos Correa"
+                },
+                {
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "comment": "Gracias a esta academia, di mis primeros pasos como cantante",
+                    "author": "Santiago Candelo (Thiago)"
+                },
+                {
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "comment": "Fui muy afortunada de pertenecer a esta gran familia musical, donde aprendí valores como la disciplina, constancia y trabajo en equipo",
+                    "author": "Jackrielys Aponte (Briseth)"
+                },
+                {
+                    "img": {
+                        "src": "./assets/images/icons/user-placeholder.svg",
+                        "alt": ""
+                    },
+                    "comment": "Estoy muy orgullosa de poder decir que fui formada en esta academia donde di mis primeros pasos como artista",
+                    "author": "Fabiola Calles (Fabi street)"
+                }
+            ]
+        },
+        "faqs": {
+            "title": "Preguntas Frecuentes",
+            "questions": [
+                {
+                    "question": "¿Hay límite de edad?",
+                    "answers": [
+                        {
+                            "text": "Si, a partir de lo 5 años, ya luego no hay límite."
+                        }
+                    ]
+                },
+                {
+                    "question": "¿Debo tener conocimientos previos?",
+                    "answers": [
+                        {
+                            "text": "No, puedes ingresar sin ningún conocimiento previo, y en caso de tener, se hara un evaluación para ubicar en el nivel correspondiente."
+                        }
+                    ]
+                },
+                {
+                    "question": "¿Cuánto tiempo duran los cursos?",
+                    "answers": [
+                        {
+                            "text": "Cada curso se divide en 6 niveles, cada nivel puede variar según el avance de cada persona, comúnmente varía entre 8 meses y 1 año."
+                        }
+                    ]
+                },
+                {
+                    "question": "¿Debo tener el instrumento?",
+                    "answers": [
+                        {
+                            "text": "Si, es necesario para el desarrollo de habilidades y destrezas al momento de practicar en casa"
+                        }
+                    ]
+                }
+            ]
+        },
+        "ubication": {
+            "title": "Ubicación",
+            "ubication": [
+                {
+                    "title": "Terraza Cultural \"El Viñedo\"",
+                    "address": "6X6M+7X5, Av. Carlos Sanda, Valencia 2001, Carabobo, Venezuela",
+                    "schedules": [
+                        {
+                            "day": "Sábados",
+                            "hours": "9pm a 12pm"
+                        }
+                    ], 
+                    "courses": [
+                        {
+                            "instrument": "Canto"
+                        }
+                    ],
+                    "map": {
+                        "src": "!1m18!1m12!1m3!1d3926.6309287446256!2d-68.01780458571675!3d10.210596672175479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805d8098d2d63b%3A0x339abbf055af8eb0!2sTerraza%20Cultural%20El%20Vi%C3%B1edo!5e0!3m2!1ses!2suy!4v1676468430099!5m2!1ses!2suy"
+                    }
+                },
+                {
+                    "title": "Club Madeirense",
+                    "address": "72HX+8FG, C. Madeira, San Diego 2006, Carabobo, Venezuela",
+                    "schedules": [
+                        {
+                            "day": "Miércoles",
+                            "hours": "3pm a 6pm"
+                        },
+                        {
+                            "day": "Jueves",
+                            "hours": "3pm a 6pm"
+                        }
+                    ],
+                    "courses": [
+                        {
+                            "instrument": "Canto"
+                        },
+                        {
+                            "instrument": "Guitarra"
+                        },
+                        {
+                            "instrument": "Cuatro"
+                        },
+                        {
+                            "instrument": "Teclado"
+                        }
+                    ],
+                    "map": {
+                        "src": "!1m18!1m12!1m3!1d3925.7892416744075!2d-67.95128507530886!3d10.278558540118839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8043557f346ebb%3A0x57fc26edccb0638!2sCentro%20Social%20Madeirense%2C%202006%2C%20Carabobo%2C%20Venezuela!5e0!3m2!1ses!2suy!4v1676468577544!5m2!1ses!2suy"
+                    }
+                }
+            ]
+
+        },
+        "contact": {
+            "title": "Contacto",
+            "required": "*Campos obligatorios",
+            "form": {
+                "action": "./php/contact_process.php",
+                "method": "POST",
+                "inputs": [
+                    {
+                        "title": "Nombre y Apellido*",
+                        "id": "name",
+                        "name": "name",
+                        "type": "text",
+                        "minlength": 5,
+                        "placeholder": "Juan Peña",
+                        "required": true
+                    },
+                    {
+                        "title": "Correo Electrónico*",
+                        "id": "email",
+                        "name": "email",
+                        "type": "email",
+                        "minlength": 12,
+                        "placeholder": "Ejemplo@correo.com",
+                        "required": true
+                    },
+                    {
+                        "title": "Teléfono*",
+                        "id": "tel",
+                        "name": "tel",
+                        "type": "tel",
+                        "minlength": 10,
+                        "placeholder": "0414-123-1234",
+                        "required": false
+                    },
+                    {
+                        "title": "Mensaje*",
+                        "id": "message",
+                        "name": "message",
+                        "type": "textarea",
+                        "minlength": 15,
+                        "rows": "3",
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "privacy_policy": {
+            "title": "Políticas de Privacidad",
+            "method": "POST",
+            "action": "./php/cookies_process.php",
+            "articles": [
+                {
+                    "title": "Políticas de Privacidad",
+                    "content": [
+                            {
+                                "content": "El presente Políticas de Privacidad establece los términos en que <strong>Academia Adaggio</strong> usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Políticas de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios."
+                            }
+                    ]
+                },
+                {
+                    "title": "Información que es recogida",
+                    "content": [
+                        {
+                            "content": "Nuestro sitio web podrá recoger información personal por ejemplo: Nombre, información de contacto como su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación."
+                        }
+                    ]
+                },
+                {
+                    "title": "Uso de la información recogida",
+                    "content": [
+                        {
+                            "content": "Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios. Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento."
+                        },
+                        {
+                            "content": "<strong>Academia Adaggio</strong> está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado."
+                        }
+                    ]
+                },
+                {
+                    "title": "Cookies",
+                    "content": [
+                        {
+                            "content": "Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web."
+                        },
+                        {
+                            "content": "Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione directamente. Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios."
+                        }
+                    ]
+                },
+                {
+                    "title": "Enlaces a Terceros",
+                    "content": [
+                        {
+                            "content": "Este sitio web pudiera contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos de privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticass de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Control de su información personal",
+                    "content": [
+                        {
+                            "content": "En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web. Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico. En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento."
+                        },
+                        {
+                            "content": "Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial."
+                        },
+                        {
+                            "content": "<strong>Academia Adaggio</strong> se reserva el derecho de cambiar los términos de la presente Políticas de Privacidad en cualquier momento."
+                        }
+                    ]
+                }
+            ],
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+        }
+    },
+    "footer": {
+        "contact": [
+            {
+                "icon": "fa-solid fa-envelope",
+                "title": "Correo Electrónico",
+                "href": "mailto:contacto@academia-adaggio.com",
+                "target": "_blank"
+            },
+            {
+                "icon": "fa-brands fa-whatsapp",
+                "title": "Whatsapp",
+                "href": "https://wa.me/584244474714?text=Consulta%20desde%20la%20Web",
+                "target": "_blank"
+            }
+        ],
+        "logo": {
+            "src": "./assets/images/logos/logo_negativo.png",
+            "alt": "Logo Adaggio",
+            "href": "",
+            "target": "_self",
+            "title": "adaggio"
+        },
+        "social": [
+            {
+                "icon": "fa-brands fa-instagram",
+                "title": "Instagram",
+                "href": "",
+                "target": "_blank"
+            },
+            {
+                "icon": "fa-brands fa-facebook",
+                "title": "Facebook",
+                "href": "",
+                "target": "_blank"
+            }
+        ]
+    }
+}
