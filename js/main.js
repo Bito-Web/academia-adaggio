@@ -22,7 +22,7 @@ function buildBodySections(data) {
     buildFaqs(data.faqs)
     buildUbication(data.ubication)
     // buildContact(data.contact)
-    privacy_policy(data.privacy_policy)
+    // privacy_policy(data.privacy_policy)
 }
 
 async function buildHtml() {
