@@ -48,18 +48,58 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGZG7QNDYK"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-QGZG7QNDYK');
+        if (location.hostname === "bito-web.github.io") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-QGZG7QNDYK');
+        }
     </script>
 </head>
 <body class="hidde">
-    <div id="loader" class="loader show">
-        <img src="./ajax-loader.gif" alt="Loader" loading="lazy">
-        <h4 class="loader__text"></h4>
-    </div>
+    <!-- Preloader -->
+        <div id="loader" class="loader show">
+            <img src="./ajax-loader.gif" alt="Loader" loading="lazy">
+            <h4 class="loader__text"></h4>
+        </div>
+        <script>
+            const loader = document.querySelector(".loader")
+            const loader__text = document.querySelector(".loader__text")
+            const body = document.body
+    
+            function showText() {
+                let text = "Loading..."
+                let count = 1
+                let split = ""
+    
+                setInterval(() => {
+                    if(count <= text.length) {
+    
+                        split = text.substr(0,count)
+                        loader__text.textContent = split
+                        count++
+                        return split
+                    }else {
+                        split = ""
+                        count = 1
+                        return
+                    }
+    
+                }, 100)
+            }
+    
+            showText()
+    
+            window.addEventListener("DOMContentLoaded", (e) => {
+                loader.classList.remove("show")
+                body.classList.remove("hidde")
+            })
+            
+    
+        </script>
+    <!-- /Preloader -->
+
     <header id="header" class="header"></header>
     <main>
         <section id="banners" class="banners"></section>
@@ -69,55 +109,16 @@
         <section id="experiences" class="experiences"></section>
         <section id="faqs" class="faqs"></section>
         <section id="ubication" class="ubication"></section>
-        <!-- <section id="contact" class="contact"></section> -->
 
         <div id="modal" class="modal"></div>
     </main>
     <footer id="footer" class="footer"></footer>
 
-    <!-- Preloader -->
-    <script>
-        const loader = document.querySelector(".loader")
-        const loader__text = document.querySelector(".loader__text")
-        const body = document.body
-
-        function showText() {
-            let text = "Loading..."
-            let count = 1
-            let split = ""
-
-            setInterval(() => {
-                if(count <= text.length) {
-
-                    split = text.substr(0,count)
-                    loader__text.textContent = split
-                    count++
-                    return split
-                }else {
-                    split = ""
-                    count = 1
-                    return
-                }
-
-            }, 100)
-        }
-
-        showText()
-
-        window.addEventListener("DOMContentLoaded", (e) => {
-            loader.classList.remove("show")
-            body.classList.remove("hidde")
-        })
-        
-
-    </script>
     <!-- Jquery -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Slick -->
     <script type="text/javascript" src="./js/slick/slick.js"></script>
-    <!-- Google Maps -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG7rwqVashsBjnfAVvw20OA1JbP7-45h0&callback=initMap,onApiLoad&libraries=geometry,search&language=es&region=uy"></script> -->
     <!-- JS -->
     <script type="module" src="./js/main.js"></script>
 </body>
