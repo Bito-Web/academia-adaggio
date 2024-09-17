@@ -4,8 +4,6 @@
         "logo": {
             "src": "./assets/images/logos/logo_bordo.png",
             "alt": "Logo Adaggio",
-            "href": "",
-            "target": "_self",
             "title": "adaggio"
         },
         "menu": [
@@ -256,7 +254,7 @@
                     ]
                 }
             ],
-            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2024 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
         },
         "chairs": {
             "title": "Cátedras Musicales",
@@ -404,7 +402,7 @@
                     "teachers": [1]
                 }
             ],
-            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados"
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2024 Todos&nbsp;los&nbsp;derechos&nbsp;reservados"
         },
         "experiences": {
             "title": "Experiencias",
@@ -655,7 +653,7 @@
                     ]
                 }
             ],
-            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2023 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
+            "footer": "Academia&nbsp;Adaggio&nbsp;&copy;&nbsp;2024 Todos&nbsp;los&nbsp;derechos&nbsp;reservados."
         }
     },
     "footer": {
@@ -663,34 +661,32 @@
             {
                 "icon": "fa-solid fa-envelope",
                 "title": "Correo Electrónico",
-                "href": "mailto:contacto@academia-adaggio.com",
+                "href": "mailto:adaggio.com.ve@gmail.com",
                 "target": "_blank"
             },
             {
                 "icon": "fa-brands fa-whatsapp",
                 "title": "Whatsapp",
-                "href": "https://wa.me/584244474714?text=Consulta%20desde%20la%20Web",
+                "href": "https://api.whatsapp.com/send?phone=584244474714&text=Consulta20%desde20%la20%web",
                 "target": "_blank"
             }
         ],
         "logo": {
             "src": "./assets/images/logos/logo_negativo.png",
             "alt": "Logo Adaggio",
-            "href": "",
-            "target": "_self",
             "title": "adaggio"
         },
         "social": [
             {
                 "icon": "fa-brands fa-instagram",
                 "title": "Instagram",
-                "href": "",
+                "href": "https://www.instagram.com/fundacionadaggio/",
                 "target": "_blank"
             },
             {
-                "icon": "fa-brands fa-facebook",
-                "title": "Facebook",
-                "href": "",
+                "icon": "fa-brands fa-youtube",
+                "title": "Youtube",
+                "href": "https://www.youtube.com/@fundacionadaggio1622",
                 "target": "_blank"
             }
         ]

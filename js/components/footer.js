@@ -1,5 +1,7 @@
 "use strict"
 
+import scrollTo from "../functions/scroll-to.js"
+
 const section = document.querySelector(".footer")
 
 export default function buildFooter(data) {
@@ -30,7 +32,7 @@ export default function buildFooter(data) {
     })
 
     __logo.innerHTML += `
-        <a href="${data.logo.href}" target="${data.logo.target}">
+        <a>
             <img src="${data.logo.src}" alt="${data.logo.alt}" loading="lazy"/>
         </a>
     `
@@ -42,4 +44,6 @@ export default function buildFooter(data) {
         </a>
         `
     })
+    
+    __logo.addEventListener("click", scrollTo, false)
 }

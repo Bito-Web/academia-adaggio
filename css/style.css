@@ -162,8 +162,9 @@ p, span, a, button, div, article { font-weight: 300; }
             align-items: center;
     height: 75px;
 }
-.header__logo img {
-    margin: 0;
+.header__logo a {}
+.header__logo a img {
+    margin: auto;
     display: block;
     width: auto;
     height: 35px;
@@ -243,7 +244,7 @@ p, span, a, button, div, article { font-weight: 300; }
         padding: 2rem 0;
         height: auto;
     }
-    .header__logo img {
+    .header__logo a img {
         margin: 0 auto;
         width: 200px;
         height: auto;
@@ -1331,7 +1332,7 @@ textarea.error:hover {
     text-decoration: none;
     padding: 0 0 0.5rem;
 }
-.footer__container__contact a:hover {
+.footer__container__contact a span:hover {
     text-decoration: underline;
 }
 .footer__container__contact a:last-of-type {
@@ -1341,7 +1342,7 @@ textarea.error:hover {
     width: 1.5rem;
 }
 .footer__container__contact a span {
-    /* padding-left: 0.5rem; */
+    padding-left: 0.5rem;
 }
 .footer__container__logo {
     margin: auto;
@@ -1362,7 +1363,7 @@ textarea.error:hover {
     text-decoration: none;
     padding: 0 0 0.5rem;
 }
-.footer__container__social a:hover {
+.footer__container__social a span:hover {
     text-decoration: underline;
 }
 .footer__container__social a:last-of-type {
@@ -1372,7 +1373,7 @@ textarea.error:hover {
     width: 1.5rem;
 }
 .footer__container__social a span {
-    /* padding-left: 0.5rem; */
+    padding-left: 0.5rem;
 }
 
 @media (max-width: 991px) {

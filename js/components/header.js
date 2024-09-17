@@ -1,31 +1,27 @@
 "use strict"
 
+// import scrollTo from "../functions/scroll-to.js"
+
 const section = document.querySelector(".header")
 
 export default function buildHeader(data) {
 
-    const __logo = document.createElement("a")
+    const __logo = document.createElement("div")
     __logo.setAttribute("class", "header__logo")
-    __logo.setAttribute("href", `${data.logo.href}`)
-    __logo.setAttribute("target", `${data.logo.target}`)
 
-    const __logo_img = document.createElement("img")
-    __logo_img.setAttribute("src", `${data.logo.src}`)
-    __logo_img.setAttribute("alt", `${data.logo.alt}`)
-    __logo_img.setAttribute("loading", "lazy")
-    
+    __logo.innerHTML += `
+        <a>
+            <img src="${data.logo.src}" alt="${data.logo.alt}" loading="lazy"/>
+        </a>
+    `
     const __title = document.createElement("h1")
     __title.textContent = `${data.title}`
     
     const __nav = document.createElement("nav")
     __nav.setAttribute("class", "header__nav")
     
-    if (data.logo.href != null || data.logo.href != "") {
-        section.appendChild(__logo)
-    }
-    if (data.logo.src != null || data.logo.src != "") {
-        __logo.appendChild(__logo_img)
-    }
+    section.appendChild(__logo)
+
     if (data.title.length != 0 || data.title != "") {
         __logo.appendChild(__title)
     }
@@ -49,4 +45,6 @@ export default function buildHeader(data) {
             __nav.classList.toggle("show")
         })
     }
+
+    // __logo.addEventListener("click", scrollTo, false)
 }
