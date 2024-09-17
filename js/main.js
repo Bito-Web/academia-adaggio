@@ -8,8 +8,6 @@ import buildChairs from "./components/chairs.js"
 import buildExperiences from "./components/experiences.js"
 import buildFaqs from "./components/faqs.js"
 import buildUbication from "./components/ubication.js"
-import buildContact from "./components/contact.js"
-import privacy_policy from "./components/privacy_policy.js"
 import buildCookies from "./components/cookies.js"
 import buildFooter from "./components/footer.js"
 
@@ -21,8 +19,6 @@ function buildBodySections(data) {
     buildExperiences(data.experiences)
     buildFaqs(data.faqs)
     buildUbication(data.ubication)
-    // buildContact(data.contact)
-    // privacy_policy(data.privacy_policy)
 }
 
 async function buildHtml() {
